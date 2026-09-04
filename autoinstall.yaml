@@ -1,0 +1,42 @@
+autoinstall:
+  version: 1
+  locale: "ar_EG.UTF-8"
+
+  refresh-installer:
+    update: false
+
+  keyboard:
+    layout: "us,ar"
+    toggle: alt_shift_toggle
+
+  source:
+    search_drivers: true
+    id: ubuntu-desktop-minimal
+
+  apt:
+    geoip: true
+
+  identity:
+    username: meow
+    password: '$y$j9T$Lj34BpaU4T3JrqjkHkJBi.$wyCqRWdiP1Eur/VFsNBCH9uP0hXmQeVl6LWuJdu0f54'
+    hostname: server
+
+  ssh:
+    install-server: true
+    allow-pw: true
+
+  codecs:
+    install: true
+
+  drivers:
+    install: true
+
+  packages:
+    - cowsay
+    - sl
+
+  timezone: "Africa/Cairo"
+  
+  storage:
+    layout:
+      name: direct
