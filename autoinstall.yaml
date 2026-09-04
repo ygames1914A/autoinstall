@@ -6,7 +6,7 @@ autoinstall:
     update: false
 
   keyboard:
-    layout: "us,ar"
+    layout: "us,ara"
     toggle: alt_shift_toggle
     variant: ","
 
