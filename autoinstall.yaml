@@ -8,6 +8,7 @@ autoinstall:
   keyboard:
     layout: "us,ar"
     toggle: alt_shift_toggle
+    variant: ","
 
   source:
     search_drivers: true
